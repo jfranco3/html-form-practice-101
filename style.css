@@ -7,6 +7,14 @@ body {
 }
 
 
+
+h1 {
+    border-style: double ;
+    border-radius: 10px;
+}
+
+
+
 label {
 
     font-weight: 300px;
@@ -14,6 +22,7 @@ label {
 
 label:hover {
     text-decoration: underline;
+    background-color: rgb(182, 208, 222);
 }
 
 
@@ -28,13 +37,9 @@ button {
 }
 
 button:hover {
-    background-color: rgb(12, 115, 179);
+    background-color: rgb(33, 140, 207);
     color: black;
 }
-
-
-
-
 
 
 
