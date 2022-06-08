@@ -1,6 +1,35 @@
 body {
     text-align: center;
-    background-color: lightsalmon;
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+   color: #3b0303;
+   background-size:cover; 
+}
+
+
+label {
+
+    font-weight: 300px;
+}
+
+label:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    outline: 2px solid tan;
+    color: black;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+button:hover {
+    background-color: rgb(12, 115, 179);
+    color: black;
 }
 
 
@@ -10,29 +39,27 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* small devices
-@media (min-width:576px) {
-
+ /* small devices */
+@media (min-width:600px) {
+body {
+    text-align: center;
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+    color:#3b0303 ;
+   background-size:cover;
+}
 } 
 
 
-/* desktop 
+
+/* desktop/laptops */
 @media (min-width: 992px) {
 
-} */
+    body {
+    text-align: center;
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+    color: #3b0303;
+   background-size:cover;
+}
+}
